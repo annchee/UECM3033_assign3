@@ -13,7 +13,7 @@ def gausslegendre(f, a, b, n=20):
 if __name__ == "__main__":
     def f(x):
         return (x**2 +7*x)/(1 +np.sqrt(x))**4
-    
+    %change
     def my_integral():
         x = sy.Symbol('x')
         ans = sy.integrate((x**2 +7*x)/(1 +sy.sqrt(x))**4, (x,0, 1))
