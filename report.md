@@ -19,8 +19,7 @@ This show as guasslegendre function in the task 1.
 
 Explain how you get the weights and nodes used in the Gauss-Legendre quadrature.
 The nodes are actually roots of the Legendre polynomials, and the corresponding weights must
-be obtained by solving a system of equations. Thus, we choose the n weights and the n points such that the
-error E(n) = 0 for all polynomials f of degree 2n − 1.
+be obtained by solving a system of equations. Thus, we choose the n weights and the n points such that the error E(n) = 0 for all polynomials f of degree 2n − 1.
 ---------------------------------------------------------
 
 ## Task 2 -- Predator-prey model
@@ -37,16 +36,17 @@ $y_{0}$.
 
  
 Put your graphs here and explain.
+
 Graph of $y_{0}$ and $y_{1}$ against $t$
-![graph1.jpg](graph1.jpg)
+![graph1.png](graph1.png)
 figure 1
+
 Graph of $y_{1}$ against $y_{0}$
-![graph2.jpg](graph2.jpg)
+![graph2.png](graph2.png)
 figure 2
 
 Is the system of ODE sensitive to initial condition? Explain.
-Yes, the system of ODE sensitive to initial condition. Any point deviating from desired particular solution, even by only small amount, 
-lies on different solution, and therefore rapid transient of general solution is present.
+Yes, the system of ODE sensitive to initial condition. Any point deviating from desired particular solution, even by only small amount, lies on different solution, and therefore rapid transient of general solution is present.
 -----------------------------------
 
 <sup>last modified: 18 April 2016</sup>
